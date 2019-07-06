@@ -6,5 +6,18 @@ Completed as part of a MERN Stack training course at Digital Career Institute, B
 
 To install the app after cloning the repository, type "npm install"
 
-To use the app after installing, type weather-add <CITY NAME>
+Registration at openweathermap.org is required to get access to the API. Check the guide for more details. 
+
+https://openweathermap.org/guide
+
+**Cli Command**
+
+weather-in <CITY NAME>
+
+## Learned
+
+- about she bangs
+- getting http requests on the server
+- response and request objects
+
 
