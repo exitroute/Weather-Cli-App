@@ -6,6 +6,6 @@ const Client = require("./client");
 
 let city = process.argv[2].trim();
 
-let cityClient = new Client(process.env.APPID);
+let cityClient = new Client();
 
-cityClient.getWeather(city);
+cityClient.getWeather(city, process.env.APPID);
