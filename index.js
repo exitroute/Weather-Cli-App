@@ -1,6 +1,9 @@
 #!/usr/bin/env node
 
-require("dotenv").config();
+const dotenv = require("dotenv").config({
+  path: "/home/dci/Development/exercises/Node/weather-app/.env",
+  debug: true
+});
 
 const Client = require("./client");
 
